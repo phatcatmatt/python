@@ -1,11 +1,18 @@
+# import RPi.GPIO as GPIO
 import time
 import sys
 import random
+
+# GPIO.setmode(GPIO.BCM)
+# GPIO.setup(pin1, GPIO.OUT)
+# GPIO.setup(pin2, GPIO.OUT)
 
 pin1 = int(sys.argv[1])
 pin2 = int(sys.argv[2])
 pin1Val = False
 pin2Val = False
+
+print "blinking on", pin1, pin2
 
 while True:
     pin = random.randint(pin1,pin2)
