@@ -28,4 +28,4 @@ while True:
             GPIO.output(pin2, GPIO.HIGH)
         else:
             GPIO.output(pin2, GPIO.LOW)
-    time.sleep(random.random())
+    time.sleep(random.uniform(0, .7))
