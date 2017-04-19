@@ -11,4 +11,5 @@ while True:
     if (inputVal == True):
         count = count + 1
         print("Button pressed " +str(count) + " times.")
-    time.sleep(.15)
+        time.sleep(.2)
+    time.sleep(.01)
